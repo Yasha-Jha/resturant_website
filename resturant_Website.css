@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 4rem;
+  /* margin: 4rem 3rem 3rem 1rem; */
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("./img/resturant-background-img1.jpg") no-repeat center
+    center/cover;
+  text-shadow: 1.6px 1px #b4b3af;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 1rem 0;
+}
+
+nav ul {
+  margin: 2rem 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 0.5rem;
+}
+
+nav ul li {
+  background-color: #ffc600;
+  color: #272727;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.main {
+  /* margin-left: 2.6rem; */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1rem;
+}
+
+.main .column-1 {
+  background: url("./img/taco-main.jpg") no-repeat center center/cover;
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+  object-fit: fill;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 400px;
+}
+
+.main .column-1 h1,
+.main .column-1 p {
+  margin-left: 3rem;
+  padding: 0.3rem;
+  background-color: #ffc600;
+  color: #272727;
+}
+
+.main .column-2 {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+  margin-left: 0.5rem;
+  text-align: center;
+}
+
+.main .column-2 .box-1,
+.main .column-2 .box-2 {
+  background-color: #ffc600;
+}
+
+.main .column-2 .box-1 h2,
+.main .column-2 .box-2 h2 {
+  padding-top: 3rem;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.section1 ul {
+  margin: 1rem 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  text-align: center;
+}
+
+.section1 ul li {
+  background-color: aliceblue;
+  border: 1px solid white;
+  padding: 1.5rem;
+}
+
+.section1 ul li span {
+  font-size: 50px;
+}
+
+.section1 ul li p {
+  color: rgb(85, 61, 61);
+}
+
+.section2 {
+  background-color: white;
+  /* margin-left: 2.6rem; */
+  min-height: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  /* font-weight: 600; */
+  padding: 2rem;
+}
+
+.section2 h3 {
+  font-size: 20px;
+}
+
+.section2 p {
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.section2 .container2 a {
+  text-decoration: none;
+  background-color: #ffc600;
+  color: #272727;
+  padding: 0.7rem 1rem;
+}
+
+.section3 h2 {
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.section3 ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.section3 ul li img {
+  width: 100%;
+}
